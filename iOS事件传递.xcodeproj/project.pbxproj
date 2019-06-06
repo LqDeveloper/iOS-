@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		049BC84804E9F5195F15D187 /* Pods_iOS____UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47712A98DA5A344FD153CFA7 /* Pods_iOS____UITests.framework */; };
 		11D74580765B6AB6C47DF996 /* Pods_iOS____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F07D442AE200DFA3736288D /* Pods_iOS____Tests.framework */; };
-		29340519CC5B17C618CA0CBA /* Pods_iOS____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5A82DB2C3E9FBB2B99883D /* Pods_iOS____.framework */; };
 		51C53A8022A9184C0054A52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C53A7F22A9184C0054A52C /* AppDelegate.swift */; };
 		51C53A8222A9184C0054A52C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C53A8122A9184C0054A52C /* ViewController.swift */; };
 		51C53A8522A9184C0054A52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C53A8322A9184C0054A52C /* Main.storyboard */; };
@@ -41,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E5A82DB2C3E9FBB2B99883D /* Pods_iOS____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F07D442AE200DFA3736288D /* Pods_iOS____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS____Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47712A98DA5A344FD153CFA7 /* Pods_iOS____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS____UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5A82DB2C3E9FBB2B99883D /* Pods_iOS____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iOS____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F07D442AE200DFA3736288D /* Pods_iOS____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iOS____Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47712A98DA5A344FD153CFA7 /* Pods_iOS____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iOS____UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C53A7C22A9184C0054A52C /* iOS事件传递.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS事件传递.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C53A7F22A9184C0054A52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C53A8122A9184C0054A52C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +51,10 @@
 		51C53A8922A9184D0054A52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C53A8B22A9184D0054A52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C53A9022A9184D0054A52C /* iOS事件传递Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS事件传递Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51C53A9422A9184D0054A52C /* iOS____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS____Tests.swift; sourceTree = "<group>"; };
+		51C53A9422A9184D0054A52C /* iOS____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS____Tests.swift"; sourceTree = "<group>"; };
 		51C53A9622A9184D0054A52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C53A9B22A9184D0054A52C /* iOS事件传递UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS事件传递UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51C53A9F22A9184D0054A52C /* iOS____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS____UITests.swift; sourceTree = "<group>"; };
+		51C53A9F22A9184D0054A52C /* iOS____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS____UITests.swift"; sourceTree = "<group>"; };
 		51C53AA122A9184D0054A52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C53AAE22A918E90054A52C /* MyApplocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplocation.swift; sourceTree = "<group>"; };
 		51C53AB022A9199D0054A52C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -74,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29340519CC5B17C618CA0CBA /* Pods_iOS____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +105,6 @@
 				E151424699FC49448D0D97FA /* Pods-iOS事件传递UITests.debug.xcconfig */,
 				78FCE55249B82C4508928CB8 /* Pods-iOS事件传递UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
