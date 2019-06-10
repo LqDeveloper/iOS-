@@ -17,4 +17,8 @@ class MyFirstView: UIView {
         print("MyFirstView ---------------- point")
         return super.point(inside: point, with: event)
     }
+//
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("MyFirstView ----------------touchesBegan")
+//    }
 }

@@ -20,6 +20,7 @@
 		51C53AB122A9199D0054A52C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C53AB022A9199D0054A52C /* main.swift */; };
 		51C53AB322A91B0D0054A52C /* MyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C53AB222A91B0D0054A52C /* MyWindow.swift */; };
 		51C53AB522A91E0C0054A52C /* MyFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C53AB422A91E0C0054A52C /* MyFirstView.swift */; };
+		51CCDB2922AE052F00960DED /* MySecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCDB2822AE052F00960DED /* MySecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		51C53AB022A9199D0054A52C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		51C53AB222A91B0D0054A52C /* MyWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWindow.swift; sourceTree = "<group>"; };
 		51C53AB422A91E0C0054A52C /* MyFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstView.swift; sourceTree = "<group>"; };
+		51CCDB2822AE052F00960DED /* MySecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondView.swift; sourceTree = "<group>"; };
 		580D04A0DD0991058B0D5086 /* Pods-iOS事件传递.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS事件传递.release.xcconfig"; path = "Target Support Files/Pods-iOS事件传递/Pods-iOS事件传递.release.xcconfig"; sourceTree = "<group>"; };
 		78FCE55249B82C4508928CB8 /* Pods-iOS事件传递UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS事件传递UITests.release.xcconfig"; path = "Target Support Files/Pods-iOS事件传递UITests/Pods-iOS事件传递UITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A70A03A7C1BD25853A5959B /* Pods-iOS事件传递Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS事件传递Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS事件传递Tests/Pods-iOS事件传递Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				51C53AAE22A918E90054A52C /* MyApplocation.swift */,
 				51C53AB222A91B0D0054A52C /* MyWindow.swift */,
 				51C53AB422A91E0C0054A52C /* MyFirstView.swift */,
+				51CCDB2822AE052F00960DED /* MySecondView.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				51C53AB522A91E0C0054A52C /* MyFirstView.swift in Sources */,
 				51C53AAF22A918E90054A52C /* MyApplocation.swift in Sources */,
 				51C53AB122A9199D0054A52C /* main.swift in Sources */,
+				51CCDB2922AE052F00960DED /* MySecondView.swift in Sources */,
 				51C53A8022A9184C0054A52C /* AppDelegate.swift in Sources */,
 				51C53AB322A91B0D0054A52C /* MyWindow.swift in Sources */,
 			);
